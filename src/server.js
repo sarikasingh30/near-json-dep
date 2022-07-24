@@ -12,3 +12,4 @@ server.use(middlewares);
 server.use(router);
 
 server.listen(port);
+console.log("Listning",port)
